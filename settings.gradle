@@ -1,0 +1,3 @@
+include ':simplemeterview'
+include ':app'
+rootProject.name = "LinkedSimpleMeterView"
