@@ -206,4 +206,13 @@ class SimpleMeterView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : SimpleMeterView {
+            val view : SimpleMeterView = SimpleMeterView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
